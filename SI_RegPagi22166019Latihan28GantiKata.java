@@ -18,19 +18,23 @@ public class SI_RegPagi22166019Latihan28GantiKata {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
+        // Memasukkan kalimat
         System.out.println("============Program Mengganti Kata===========");
         System.out.println();
         System.out.print("Masukkan kalimat: ");
         String kalimat = input.nextLine();
         
+        // Memasukkan kata apa dan diganti apa
         System.out.print("Ganti kata : ");
         String kataLama = input.nextLine();
         
         System.out.print("Menjadi kata : ");
         String kataBaru = input.nextLine();
         
+        // Replace agar terganti (old char, new char)
         String kalimatBaru = kalimat.replace(kataLama, kataBaru);
         
+        // Hasil akhir
         System.out.println();
         System.out.println("============Hasil Formatting===========");
         System.out.println("Kalimat awal : " + kalimat);
